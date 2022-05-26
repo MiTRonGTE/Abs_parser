@@ -33,6 +33,10 @@ def read_file_abs(core_name):
         with open(f"data//{core_name}{i}.txt", "rb") as ff:
             contents = ff.read().decode("utf-16")
 
+        if len(contents) < 20:
+            print("Error empty file!")
+            exit()
+
         # uncomment to replace . with ,
         # contents = contents.replace(".", ",")
 
