@@ -4,12 +4,15 @@
 # Kamil Pawlicki #
 ##################
 
-# 1 measurement A1-G1 [D5-D11], A2-G2 [E5-E11] and A3-G3 [F5-F11]. Untitled1
-# 2 measurement A4-G4 [D5-D11], A5-G5 [E5-E11] and A6-G6 [F5-F11]. Untitled2
-# 3 measurement A7-G7 [D5-D11], A8-G8 [E5-E11] and A9-G9 [F5-F11]. Untitled3
-# 4 measurement A10-G10 [D5-D11], A11-G11 [E5-E11] and A12-G12 [F5-F11]. Untitled4
-# 5 measurement H1-H7 [D5-D11] & H8-H12 [E5-E9]. Untitled5
+# Input:
+# 1 measurement A1-G1 [D5-D11], A2-G2 [E5-E11] and A3-G3 [F5-F11] -> Untitled1
+# 2 measurement A4-G4 [D5-D11], A5-G5 [E5-E11] and A6-G6 [F5-F11] -> Untitled2
+# 3 measurement A7-G7 [D5-D11], A8-G8 [E5-E11] and A9-G9 [F5-F11] -> Untitled3
+# 4 measurement A10-G10 [D5-D11], A11-G11 [E5-E11] and A12-G12 [F5-F11] -> Untitled4
+# 5 measurement H1-H7 [D5-D11] and H8-H12 [E5-E9] -> Untitled5
 
+# Map:
+#                           Plate
 #       Untitled1   Untitled2   Untitled3   Untitled4
 #       1   2   3   4   5   6   7   8   9   10  11  12
 #   A   D5  E5  F5  D5  E5  F5  D5  E5  F5  D5  E5  F5
